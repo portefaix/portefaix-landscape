@@ -34,3 +34,23 @@ jobs:
         with:
           target_kind: settings
           target_path: settings.yml
+
+  validate-data:
+    runs-on: ubuntu-latest
+    name: "Validate landscape data file"
+    steps:
+      - uses: actions/checkout@v3
+      - uses: cncf/landscape2-validate-action@v2
+        with:
+          target_kind: data
+          target_path: ./data.yml
+
+  validate-guide:
+    runs-on: ubuntu-latest
+    name: "Validate landscape guide file"
+    steps:
+      - uses: actions/checkout@v3
+      - uses: cncf/landscape2-validate-action@v2
+        with:
+          target_kind: guide
+          target_path: ./guide.yml
