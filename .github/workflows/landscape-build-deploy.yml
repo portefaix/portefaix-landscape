@@ -61,12 +61,12 @@ jobs:
           RUST_LOG: "landscape2=debug"
         run: |
           landscape2 build \
-            --settings-file ./${{ inputs.foundation }}/settings.yml \
-            --guide-file ./${{ inputs.foundation }}/guide.yml \
-            --data-file ./landscape/landscape.yml \
-            --logos-path ./landscape/hosted_logos \
-            --cache-dir /tmp/landscape-cache \
-            --output-dir /tmp/landscape
+            --data-file data.yml \
+            --settings-file settings.yml \
+            --guide-file guide.yml \
+            --logos-path logos \
+            --cache-dir cache \
+            --output-dir build
 
       # - name: Deploy landscape
       #   env:
@@ -76,4 +76,4 @@ jobs:
       #   run: |
       #     landscape2 deploy s3 \
       #       --bucket landscape2-${{ inputs.foundation }} \
-      #       --landscape-dir /tmp/landscape
+      #       --landscape-dir build
