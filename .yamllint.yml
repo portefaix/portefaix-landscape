@@ -16,8 +16,8 @@
 
 extends: default
 
-ignore: |
-  **/templates/*.yaml
+# ignore: |
+#   **/templates/*.yaml
 
 rules:
   comments:
