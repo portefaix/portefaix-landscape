@@ -1,0 +1,79 @@
+# Copyright (C) Nicolas Lamirault <nicolas.lamirault@gmail.com>
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# SPDX-License-Identifier: Apache-2.0
+
+---
+name: Landscape / Build and deploy
+
+on: # yamllint disable-line rule:truthy
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-landscape:
+    runs-on:
+      labels: ubuntu-latest-16-cores
+    container:
+      image: public.ecr.aws/g6m3a0y9/landscape2
+      options: --user root
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v3
+
+      - name: Checkout landscape repository
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ inputs.repository }}
+          ref: ${{ inputs.repository_ref }}
+          path: "./landscape"
+          sparse-checkout: |
+            landscape.yml
+            hosted_logos
+
+      - name: Install tar in container (needed for the cache)
+        run: apk add --update --no-progress tar
+
+      - name: Setup cache
+        uses: actions/cache@v3
+        with:
+          path: /tmp/landscape-cache
+          key: landscape-cache-${{ inputs.foundation }}-${{ github.sha }}-${{ github.run_id }}
+          restore-keys: |
+            landscape-cache-${{ inputs.foundation }}-
+
+      - name: Build landscape (with guide)
+        if: ${{ hashFiles(format('./{0}/guide.yml', inputs.foundation)) != '' }}
+        env:
+          GITHUB_TOKENS: ${{ secrets.GH_TOKENS }}
+          RUST_LOG: "landscape2=debug"
+        run: |
+          landscape2 build \
+            --settings-file ./${{ inputs.foundation }}/settings.yml \
+            --guide-file ./${{ inputs.foundation }}/guide.yml \
+            --data-file ./landscape/landscape.yml \
+            --logos-path ./landscape/hosted_logos \
+            --cache-dir /tmp/landscape-cache \
+            --output-dir /tmp/landscape
+
+      # - name: Deploy landscape
+      #   env:
+      #     AWS_REGION: ${{ secrets.AWS_REGION }}
+      #     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      #     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      #   run: |
+      #     landscape2 deploy s3 \
+      #       --bucket landscape2-${{ inputs.foundation }} \
+      #       --landscape-dir /tmp/landscape
