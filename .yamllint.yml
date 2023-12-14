@@ -32,4 +32,4 @@ rules:
     max-spaces-inside: 0
   indentation:
     spaces: 2
-    indent-sequences: false # consistent
+    indent-sequences: consistent
