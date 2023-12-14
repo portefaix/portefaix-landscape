@@ -23,6 +23,7 @@ on: # yamllint disable-line rule:truthy
       - main
     paths:
       - settings.yml
+  workflow_dispatch:
 
 jobs:
   validate-settings:
