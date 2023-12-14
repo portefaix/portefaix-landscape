@@ -33,4 +33,4 @@ jobs:
       - uses: cncf/landscape2-validate-action@v2
         with:
           target_kind: settings
-          target_path: aswf/settings.yml
+          target_path: settings.yml
