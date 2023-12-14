@@ -1,0 +1,1664 @@
+landscape:
+  - category:
+    name: Provisioning
+    subcategories:
+      - subcategory:
+        name: Automation & Configuration
+        items:
+          - item:
+            name: Ansible
+            homepage_url: https://www.ansible.com/
+            repo_url: https://github.com/ansible/ansible
+            logo: ansible.svg
+            twitter: https://twitter.com/ansible
+            crunchbase: https://www.crunchbase.com/organization/red-hat
+          - item:
+            name: Terraform
+            homepage_url: https://www.terraform.io/
+            repo_url: https://github.com/hashicorp/terraform
+            logo: terraform.svg
+            crunchbase: https://www.crunchbase.com/organization/hashicorp
+      - subcategory:
+        name: Container Registry
+        items:
+          - item:
+            name: Alibaba Cloud Container Registry (ACR)
+            description: >-
+              Alibaba Cloud Container Registry (ACR) is a cloud-native artifacts management platform that helps your team build, manage, and ship containerized
+              applications,
+               also provides vulnerability analysis, global synchronization, content trust, and more functionalities out of the box.
+            homepage_url: https://www.alibabacloud.com/zh/product/container-registry
+            logo: alibaba-cloud-container-registry.svg
+            crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+          - item:
+            name: Amazon Elastic Container Registry (ECR)
+            description: >-
+              Amazon Elastic Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and
+              deploy Docker container images.
+            homepage_url: https://aws.amazon.com/ecr/
+            logo: amazon-ecr.svg
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+          - item:
+            name: Azure Registry
+            description: >-
+              Azure Container Registry allows you to store images for all types of container deployments including DC/OS, Docker Swarm, Kubernetes, and Azure
+              services such as App Service, Batch, Service Fabric, and others.
+            homepage_url: https://azure.microsoft.com/en-us/services/container-registry/
+            logo: azure-registry.svg
+            twitter: https://twitter.com/azure
+            crunchbase: https://www.crunchbase.com/organization/microsoft
+          - item:
+            name: Google Container Registry
+            description: >-
+              Container Registry is a single place for your team to manage Docker images, perform vulnerability analysis, and decide who can access what with
+              fine-grained access control.
+            homepage_url: https://cloud.google.com/container-registry/
+            logo: google-container-registry.svg
+            twitter: https://twitter.com/GCPcloud
+            crunchbase: https://www.crunchbase.com/organization/google
+          - item:
+            name: IBM Cloud Container Registry
+            description: Detect vulnerabilities before images are ever deployed to containers. Store and distribute Docker images in your managed private registry.
+            homepage_url: https://www.ibm.com/cloud/container-registry
+            logo: ibm-cloud-container-registry.svg
+            twitter: https://twitter.com/IBMCloud
+            crunchbase: https://www.crunchbase.com/organization/ibm
+      - subcategory:
+        name: Security & Compliance
+        items:
+          - item:
+            name: Aqua
+            homepage_url: https://www.aquasec.com/
+            logo: aqua.svg
+            crunchbase: https://www.crunchbase.com/organization/aquasecurity
+          - item:
+            name: cert-manager
+            homepage_url: https://cert-manager.io/
+            project: incubating
+            repo_url: https://github.com/cert-manager/cert-manager
+            logo: jetstack-cert-manager.svg
+            twitter: https://twitter.com/CertManager
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2020-11-10'
+              incubating: '2022-09-19'
+              dev_stats_url: https://certmanager.devstats.cncf.io/
+              slack_url: https://kubernetes.slack.com/messages/cert-manager
+              clomonitor_name: cert-manager
+          - item:
+            name: Chef InSpec
+            homepage_url: https://community.chef.io/tools/chef-inspec
+            repo_url: https://github.com/inspec/inspec
+            logo: chef_inspec.svg
+            crunchbase: https://www.crunchbase.com/organization/chef
+          - item:
+            name: Dex
+            homepage_url: https://dexidp.io/
+            project: sandbox
+            repo_url: https://github.com/dexidp/dex
+            logo: dex.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2020-06-25'
+              dev_stats_url: https://dex.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#dex-logos
+              clomonitor_name: dex
+          - item:
+            name: external-secrets
+            homepage_url: https://external-secrets.io/
+            project: sandbox
+            repo_url: https://github.com/external-secrets/external-secrets
+            logo: external-secrets.svg
+            twitter: https://twitter.com/ExtSecretsOptr
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2022-07-26'
+              dev_stats_url: https://externalsecretsoperator.devstats.cncf.io/
+              clomonitor_name: external-secrets
+          - item:
+            name: Falco
+            homepage_url: https://falco.org/
+            project: incubating
+            repo_url: https://github.com/falcosecurity/falco
+            logo: falco.svg
+            twitter: https://twitter.com/falco_org
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2018-10-10'
+              incubating: '2020-01-08'
+              dev_stats_url: https://falco.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#falco-logos
+              slack_url: https://kubernetes.slack.com/messages/falco
+              clomonitor_name: falco
+              audits:
+                - date: '2019-06-07'
+                  type: security
+                  url: https://github.com/falcosecurity/falco/blob/dev/audits/SECURITY_AUDIT_2019_07.pdf
+                  vendor: Cure53
+                - date: '2023-03-22'
+                  type: security
+                  url: https://falco.org/blog/falco-security-audit-2023/
+                  vendor: OSTIF
+          - item:
+            name: kube-bench
+            homepage_url: https://github.com/aquasecurity/kube-bench
+            repo_url: https://github.com/aquasecurity/kube-bench
+            logo: kube-bench.svg
+            crunchbase: https://www.crunchbase.com/organization/aquasecurity
+          - item:
+            name: kube-hunter
+            homepage_url: https://github.com/aquasecurity/kube-hunter
+            repo_url: https://github.com/aquasecurity/kube-hunter
+            logo: kube-hunter.svg
+            crunchbase: https://www.crunchbase.com/organization/aquasecurity
+          - item:
+            name: Kubescape
+            description: >-
+              Kubescape is an open source security and compliance platform that scans clusters, Kubernetes manifest files (YAML files, and Helm charts), code
+              repositories, container registries and images. It detects misconfigurations according to frameworks such as the NSA-CISA,  MITRE ATT&CK® and CIS,
+              as well as software vulnerabilities, and calculates risk scores.
+            homepage_url: https://kubescape.io/
+            project: sandbox
+            repo_url: https://github.com/kubescape/kubescape
+            logo: kubescape.svg
+            twitter: https://twitter.com/kubescape
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2022-12-13'
+              slack_url: https://cloud-native.slack.com/messages/kubescape
+              dev_stats_url: https://kubescape.devstats.cncf.io/
+              clomonitor_name: kubescape
+          - item:
+            name: Kubewarden
+            homepage_url: https://www.kubewarden.io
+            project: sandbox
+            repo_url: https://github.com/kubewarden/kubewarden-controller
+            logo: kubewarden.svg
+            twitter: https://twitter.com/kubewarden
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            allow_duplicate_repo: true
+            extra:
+              accepted: '2022-06-17'
+              blog_url: https://kubewarden.io/blog
+              slack_url: https://kubernetes.slack.com/
+              dev_stats_url: https://kubewarden.devstats.cncf.io/
+              chat_channel: '#kubewarden'
+              clomonitor_name: kubewarden
+          - item:
+            name: Kyverno
+            homepage_url: https://kyverno.io/
+            project: incubating
+            repo_url: https://github.com/kyverno/kyverno
+            logo: kyverno.svg
+            twitter: https://twitter.com/kyverno
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2020-11-10'
+              incubating: '2022-07-13'
+              dev_stats_url: https://kyverno.devstats.cncf.io/
+              slack_url: https://kubernetes.slack.com/
+              chat_channel: '#kyverno'
+              clomonitor_name: kyverno
+              audits:
+                - date: '2023-09-06'
+                  type: fuzzing
+                  url: https://main.kyverno.io/blog/2023/09/06/kyverno-completes-fuzzing-security-audit/kyverno-2023-fuzzing-security-audit.pdf
+                  vendor: Ada Logics
+                - date: '2023-11-28'
+                  type: security
+                  url: https://github.com/kyverno/website/blob/main/content/en/blog/general/2023-security-audit/kyverno-2023-security-audit-report.pdf
+                  vendor: Ada Logics
+          - item:
+            name: Open Policy Agent (OPA)
+            homepage_url: https://www.openpolicyagent.org/
+            project: graduated
+            repo_url: https://github.com/open-policy-agent/opa
+            logo: opa.svg
+            twitter: https://twitter.com/openpolicyagent
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            allow_duplicate_repo: true
+            extra:
+              accepted: '2018-03-29'
+              incubating: '2019-04-02'
+              graduated: '2021-01-29'
+              cncf_tags:
+                - https://github.com/cncf/tag-security
+              dev_stats_url: https://opa.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#opa-logos
+              blog_url: https://blog.openpolicyagent.org/
+              slack_url: http://slack.openpolicyagent.org/
+              clomonitor_name: opa
+              audits:
+                - date: '2018-08-30'
+                  type: security
+                  url: https://cure53.de/pentest-report_opa.pdf
+                  vendor: Cure53
+          - item:
+            name: Tetragon
+            homepage_url: https://github.com/cilium/tetragon
+            repo_url: https://github.com/cilium/tetragon
+            logo: tetragon-logo-wormark.svg
+            twitter: https://twitter.com/ciliumproject
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2021-10-13'
+              dev_stats_url: https://cilium.devstats.cncf.io/
+              slack_url: https://cilium.herokuapp.com/
+              parent_project: Cilium
+          - item:
+            name: Trivy
+            homepage_url: https://github.com/aquasecurity/trivy
+            repo_url: https://github.com/aquasecurity/trivy
+            logo: trivy.svg
+            crunchbase: https://www.crunchbase.com/organization/aquasecurity
+          - item:
+            name: Trivy-Operator
+            description: >-
+              Trivy-Operator operate trivy security tool on the Kubernetes cluster and incorporate it outputs into Kubernetes CRDs (Custom Resource Definitions)
+              and from there, making security reports accessible through the Kubernetes API
+            homepage_url: https://github.com/aquasecurity/trivy-operator
+            repo_url: https://github.com/aquasecurity/trivy-operator
+            logo: trivy.svg
+            twitter: https://twitter.com/aquasecteam
+            crunchbase: https://www.crunchbase.com/organization/aquasecurity
+      - subcategory:
+        name: Key Management
+        items:
+          - item:
+            name: OAuth2 Proxy
+            homepage_url: https://oauth2-proxy.github.io/oauth2-proxy/
+            repo_url: https://github.com/oauth2-proxy/oauth2-proxy
+            logo: oauth2-proxy.svg
+            crunchbase: https://www.crunchbase.com/organization/oauth2-proxy
+          - item:
+            name: Teleport
+            homepage_url: https://goteleport.com
+            repo_url: https://github.com/gravitational/teleport
+            logo: teleport.svg
+            crunchbase: https://www.crunchbase.com/organization/gravitational
+          - item:
+            name: Vault
+            homepage_url: https://www.vaultproject.io/
+            repo_url: https://github.com/hashicorp/vault
+            logo: vault.svg
+            crunchbase: https://www.crunchbase.com/organization/hashicorp
+  - category:
+    name: Runtime
+    subcategories:
+      - subcategory:
+        name: Cloud Native Storage
+        items:
+          - item:
+            name: Alibaba Cloud File Storage
+            description: >-
+              Alibaba Cloud File Storage enables you to have a distributed file system with unlimited capacity and performance scaleing with a single
+              namespace,high-performance, high reliability, high availabily and scalable file storage services.
+            homepage_url: https://www.alibabacloud.com/product/nas
+            logo: alibaba-cloud-file-storage.svg
+            crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+          - item:
+            name: Alibaba Cloud File Storage CPFS
+            description: >-
+              Alibaba Cloud File Storage CPFS is a scale-out parallel file system for Artifical intelligence(AI), High performance computing(HPC) workload while
+              ensuring security, reliability, data effciency and high performance.
+            homepage_url: https://www.alibabacloud.com/error
+            logo: alibaba-cloud-file-storage-cpfs.svg
+            crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+          - item:
+            name: Amazon Elastic Block Store (EBS)
+            description: >-
+              Amazon Elastic Block Store (EBS) is an easy to use, high performance block storage service designed for use with Amazon Elastic Compute Cloud
+              (EC2) for both throughput and transaction intensive workloads at any scale.
+            homepage_url: https://aws.amazon.com/ebs/
+            logo: amazon-elastic-block-store.svg
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+          - item:
+            name: Azure Disk Storage
+            description: Get HDD/SSD durability, scalability, availability, and security you need for all your workloads—from mission-critical workloads to test scenarios.
+            homepage_url: https://azure.microsoft.com/en-us/services/storage/disks/
+            logo: azure-disk-storage.svg
+            twitter: https://twitter.com/azure
+            crunchbase: https://www.crunchbase.com/organization/microsoft
+          - item:
+            name: Container Storage Interface (CSI)
+            homepage_url: https://github.com/container-storage-interface
+            repo_url: https://github.com/container-storage-interface/spec
+            logo: container-storage-interface-csi.svg
+            twitter: https://twitter.com/GCPcloud
+            crunchbase: https://www.crunchbase.com/organization/google
+          - item:
+            name: Google Persistent Disk
+            description: >-
+              Google Persistent Disk is durable and high performance block storage for the Google Cloud Platform. Persistent Disk provides SSD and HDD storage
+              which can be attached to instances running in either Google Compute Engine or Google Kubernetes Engine. Storage volumes can be transparently
+              resized, quickly backed up, and offer the ability to support simultaneous readers.
+            homepage_url: https://cloud.google.com/persistent-disk
+            logo: google-persistent-disk.svg
+            twitter: https://twitter.com/GCPcloud
+            crunchbase: https://www.crunchbase.com/organization/google
+          - item:
+            name: IBM Storage
+            description: >-
+              IBM Storage for containers, Kubernetes, and Red Hat OpenShift delivers native cloud acceleration to help you build powerful, agile, and persistent
+              storage for private cloud environments.
+            homepage_url: https://www.ibm.com/storage/containers
+            logo: ibm-storage.svg
+            twitter: https://twitter.com/IBMStorage
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: Longhorn
+            description: Cloud-native distributed storage for Kubernetes
+            homepage_url: https://longhorn.io/
+            project: incubating
+            repo_url: https://github.com/longhorn/longhorn
+            project_org: https://github.com/longhorn
+            logo: longhorn.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            joined: '2019-10-11'
+            extra:
+              accepted: '2019-10-11'
+              incubating: '2021-11-04'
+              dev_stats_url: https://longhorn.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#longhorn-logos
+              clomonitor_name: longhorn
+          - item:
+            name: MinIO
+            homepage_url: https://min.io/
+            repo_url: https://github.com/minio/minio
+            logo: min-io.svg
+            crunchbase: https://www.crunchbase.com/organization/minio-inc
+          - item:
+            name: Velero
+            homepage_url: https://velero.io
+            repo_url: https://github.com/vmware-tanzu/velero
+            logo: project-velero.svg
+            twitter: https://twitter.com/projectvelero
+            crunchbase: https://www.crunchbase.com/organization/vmware
+      - subcategory:
+        name: Container Runtime
+        items:
+          - item:
+            name: containerd
+            homepage_url: https://containerd.io/
+            project: graduated
+            repo_url: https://github.com/containerd/containerd
+            logo: containerd.svg
+            twitter: https://twitter.com/containerd
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            allow_duplicate_repo: true
+            extra:
+              accepted: '2017-03-29'
+              incubating: '2017-03-29'
+              graduated: '2019-02-28'
+              cncf_tags:
+                - https://github.com/cncf/tag-runtime
+              dev_stats_url: https://containerd.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#containerd-logos
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/containerd
+              slack_url: https://slack.cncf.io/
+              chat_channel: '#containerd'
+              clomonitor_name: containerd
+              audits:
+                - date: '2023-03-02'
+                  type: fuzzing
+                  url: https://github.com/containerd/containerd.io/blob/main/static/img/ADA-fuzzing-audit-21-22.pdf
+                  vendor: Ada Logics
+          - item:
+            name: CRI-O
+            homepage_url: https://cri-o.io/
+            project: graduated
+            repo_url: https://github.com/cri-o/cri-o
+            logo: cri-o.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            allow_duplicate_repo: true
+            extra:
+              accepted: '2019-04-08'
+              incubating: '2019-04-08'
+              graduated: '2023-07-19'
+              cncf_tags:
+                - https://github.com/cncf/tag-runtime
+              dev_stats_url: https://crio.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#cri-o-logos
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/cri-o
+              blog_url: https://medium.com/cri-o
+              slack_url: https://kubernetes.slack.com/messages/CAZH62UR1
+              clomonitor_name: cri-o
+              audits:
+                - date: '2022-06-06'
+                  type: fuzzing
+                  url: https://github.com/etcd-io/etcd/blob/main/security/FUZZING_AUDIT_2022.PDF
+                  vendor: ADA Logics
+          - item:
+            name: Firecracker
+            homepage_url: https://firecracker-microvm.github.io/
+            repo_url: https://github.com/firecracker-microvm/firecracker
+            logo: firecracker.svg
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+          - item:
+            name: gVisor
+            homepage_url: https://gvisor.dev/
+            repo_url: https://github.com/google/gvisor
+            logo: gvisor.svg
+            twitter: https://twitter.com/GCPcloud
+            crunchbase: https://www.crunchbase.com/organization/google
+          - item:
+            name: Lima
+            description: Linux virtual machines, typically on macOS, for running containerd
+            homepage_url: https://github.com/lima-vm/lima
+            project: sandbox
+            repo_url: https://github.com/lima-vm/lima
+            logo: lima.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2022-09-14'
+              dev_stats_url: https://lima.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#lima-logos
+              slack_url: https://slack.cncf.io/
+              chat_channel: '#lima'
+              clomonitor_name: lima
+          - item:
+            name: WasmEdge Runtime
+            homepage_url: https://wasmedge.org/
+            project: sandbox
+            repo_url: https://github.com/WasmEdge/WasmEdge
+            logo: wasmedge.svg
+            twitter: https://twitter.com/realwasmedge
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            allow_duplicate_repo: true
+            extra:
+              accepted: '2021-04-28'
+              annual_review_url: https://github.com/cncf/toc/pull/1109
+              annual_review_date: '2023-07-04'
+              dev_stats_url: https://wasmedge.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#wasmedgeruntime-logos
+              clomonitor_name: wasm-edge
+      - subcategory:
+        name: Cloud Native Network
+        items:
+          - item:
+            name: Cilium
+            homepage_url: https://cilium.io/
+            project: graduated
+            repo_url: https://github.com/cilium/cilium
+            url_for_bestpractices: https://bestpractices.coreinfrastructure.org/en/projects/1269
+            logo: cilium.svg
+            twitter: https://twitter.com/ciliumproject
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2021-10-13'
+              incubating: '2021-10-13'
+              graduated: '2023-10-11'
+              dev_stats_url: https://cilium.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#cilium-logos
+              slack_url: https://cilium.herokuapp.com/
+              clomonitor_name: cilium
+              audits:
+                - date: '2023-02-13'
+                  type: security
+                  url: https://github.com/cilium/cilium.io/blob/main/Security-Reports/CiliumSecurityAudit2022.pdf
+                  vendor: Ada Logics
+                - date: '2023-02-13'
+                  type: fuzzing
+                  url: https://github.com/cilium/cilium.io/blob/main/Security-Reports/CiliumFuzzingAudit2022.pdf
+                  vendor: Ada Logics
+          - item:
+            name: Container Network Interface (CNI)
+            homepage_url: https://www.cni.dev/
+            project: incubating
+            repo_url: https://github.com/containernetworking/cni
+            logo: container-network-interface-cni.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2017-05-23'
+              incubating: '2017-05-23'
+              dev_stats_url: https://cni.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#cni-logos
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/cni
+              mailing_list_url: https://groups.google.com/forum/#!forum/cni-dev
+              slack_url: https://containernetworking.slack.com
+              specification: true
+              clomonitor_name: cni
+
+  - category:
+    name: Orchestration & Management
+    subcategories:
+      - subcategory:
+        name: Scheduling & Orchestration
+        items:
+          - item:
+            name: Amazon Elastic Container Service (ECS)
+            description: >-
+              Amazon Elastic Container Service (Amazon ECS) is a highly scalable, high-performance container orchestration service that supports Docker
+              containers and allows you to easily run and scale containerized applications on AWS.
+            homepage_url: https://aws.amazon.com/ecs/
+            logo: amazon-ecs.svg
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+          - item:
+            name: Azure Service Fabric
+            homepage_url: https://docs.microsoft.com/en-us/azure/service-fabric/
+            repo_url: https://github.com/Microsoft/service-fabric
+            logo: azure-service-fabric.svg
+            twitter: https://twitter.com/azure
+            crunchbase: https://www.crunchbase.com/organization/microsoft
+          - item:
+            name: Crossplane
+            homepage_url: https://crossplane.io/
+            project: incubating
+            repo_url: https://github.com/crossplane/crossplane
+            logo: crossplane.svg
+            twitter: https://twitter.com/crossplane_io
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2020-06-25'
+              incubating: '2021-09-14'
+              dev_stats_url: https://crossplane.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#crossplane
+              youtube_url: https://www.youtube.com/channel/UC19FgzMBMqBro361HbE46Fw
+              clomonitor_name: crossplane
+              audits:
+                - date: '2023-03-23'
+                  type: fuzzing
+                  url: https://github.com/crossplane/crossplane/blob/master/security/ADA-fuzzing-audit-22.pdf
+                  vendor: Ada Logics
+                - date: '2023-07-27'
+                  type: fuzzing
+                  url: https://github.com/crossplane/crossplane/blob/master/security/ADA-security-audit-23.pdf
+                  vendor: Ada Logics
+          - item:
+            name: KEDA
+            homepage_url: https://keda.sh/
+            project: graduated
+            repo_url: https://github.com/kedacore/keda
+            logo: keda.svg
+            twitter: https://twitter.com/kedaorg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            allow_duplicate_repo: true
+            extra:
+              accepted: '2020-03-12'
+              incubating: '2021-08-18'
+              graduated: '2023-08-22'
+              dev_stats_url: https://keda.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#keda-logos
+              blog_url: https://keda.sh/blog
+              slack_url: https://kubernetes.slack.com/archives/CKZJ36A5D
+              youtube_url: https://www.youtube.com/playlist?list=PLvjRi5R9GQfASIcL4MLTfg2ZOoBdIi5Kq
+              clomonitor_name: keda
+              audits:
+                - date: '2023-02-02'
+                  type: security
+                  url: https://github.com/trailofbits/publications/blob/master/reviews/2023-01-keda-securityreview.pdf
+                  vendor: Trail of Bits
+          - item:
+            name: Kubernetes
+            description: Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications
+            homepage_url: https://kubernetes.io/
+            project: graduated
+            repo_url: https://github.com/kubernetes/kubernetes
+            logo: kubernetes.svg
+            twitter: https://twitter.com/kubernetesio
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            allow_duplicate_repo: true
+            extra:
+              accepted: '2016-03-10'
+              incubating: '2016-03-10'
+              graduated: '2018-03-06'
+              cncf_tags:
+                - https://github.com/cncf/tag-runtime
+              dev_stats_url: https://k8s.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#kubernetes-logos
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/kubernetes
+              blog_url: http://blog.kubernetes.io/
+              mailing_list_url: https://groups.google.com/forum/#!forum/kubernetes-dev
+              slack_url: http://slack.k8s.io/
+              youtube_url: https://www.youtube.com/channel/UCZ2bu0qutTOM0tHYa_jkIwg
+              clomonitor_name: kubernetes
+              audits:
+                - date: '2019-08-06'
+                  type: security
+                  url: https://github.com/kubernetes/sig-security/tree/main/sig-security-external-audit/security-audit-2019/findings
+                  vendor: Trail of Bits and Atredis Partners
+                - date: '2023-04-19'
+                  type: security
+                  url: https://github.com/kubernetes/sig-security/tree/main/sig-security-external-audit/security-audit-2021-2022/findings
+                  vendor: NCC Group
+          - item:
+            name: Kured
+            description: >-
+              Kured (KUbernetes REboot Daemon) is a Kubernetes daemonset that performs safe automatic node reboots when the need to do so is indicated by the
+              package management system of the underlying OS
+            homepage_url: https://kured.dev
+            project: sandbox
+            repo_url: https://github.com/kubereboot/kured
+            logo: kured.svg
+            twitter: https://twitter.com/kubereboot
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2022-09-14'
+              dev_stats_url: https://kured.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kured-logos
+              slack_url: http://slack.cncf.io/
+              mailing_list_url: https://lists.cncf.io/g/cncf-kured-dev
+              youtube_url: https://www.youtube.com/playlist?list=PLbx4FZ4kOKnurkfQy-tbxYHySHSqq0LbX
+              clomonitor_name: kured
+      - subcategory:
+        name: Coordination & Service Discovery
+        items:
+          - item:
+            name: CoreDNS
+            homepage_url: https://coredns.io/
+            project: graduated
+            repo_url: https://github.com/coredns/coredns
+            logo: core-dns.svg
+            twitter: https://twitter.com/corednsio
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2017-02-27'
+              incubating: '2018-02-26'
+              graduated: '2019-01-24'
+              cncf_tags:
+                - https://github.com/cncf/tag-network
+              dev_stats_url: https://coredns.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#coredns-logos
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/coredns
+              blog_url: https://blog.coredns.io/
+              mailing_list_url: https://groups.google.com/forum/#!forum/coredns-discuss
+              slack_url: https://cloud-native.slack.com/messages/coredns/
+              youtube_url: https://www.youtube.com/channel/UCbWRJZxiaQ8twm6sh7UymoQ
+              clomonitor_name: core-dns
+              audits:
+                - date: '2018-02-03'
+                  type: security
+                  url: https://coredns.io/assets/DNS-01-report.pdf
+                  vendor: Cure53
+          - item:
+            name: etcd
+            homepage_url: https://etcd.io/
+            project: graduated
+            repo_url: https://github.com/etcd-io/etcd
+            logo: etcd.svg
+            twitter: https://twitter.com/etcdio
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2018-12-11'
+              incubating: '2018-12-11'
+              graduated: '2020-11-24'
+              cncf_tags:
+                - https://github.com/cncf/tag-storage
+              dev_stats_url: https://etcd.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#etcd-logos
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/etcd
+              mailing_list_url: https://groups.google.com/forum/?hl=en#!forum/etcd-dev
+              slack_url: http://slack.k8s.io/
+              chat_channel: '#etcd'
+              clomonitor_name: etcd
+              audits:
+                - date: '2020-08-05'
+                  type: security
+                  url: https://github.com/etcd-io/etcd/blob/master/security/SECURITY_AUDIT.pdf
+                  vendor: Trail of Bits
+                - date: '2022-03-11'
+                  type: fuzzing
+                  url: https://github.com/etcd-io/etcd/blob/main/security/FUZZING_AUDIT_2022.PDF
+                  vendor: ADA Logics
+      - subcategory:
+        name: Remote Procedure Call
+        items:
+          - item:
+            name: gRPC
+            homepage_url: https://grpc.io/
+            project: incubating
+            repo_url: https://github.com/grpc/grpc
+            logo: grpc.svg
+            twitter: https://twitter.com/grpcio
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2017-02-16'
+              incubating: '2017-02-16'
+              dev_stats_url: https://grpc.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#grpc-logos
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/grpc
+              blog_url: http://www.grpc.io/blog/
+              youtube_url: https://www.youtube.com/channel/UCrnk1HWelWnYtF78YZX80fg
+              gitter_url: https://gitter.im/grpc/grpc
+              clomonitor_name: grpc
+              audits:
+                - date: '2019-10-29'
+                  type: security
+                  url: https://github.com/grpc/grpc/blob/master/doc/security_audit.md
+                  vendor: Cure53
+      - subcategory:
+        name: Service Proxy
+        items:
+          - item:
+            name: Envoy
+            homepage_url: https://www.envoyproxy.io
+            project: graduated
+            repo_url: https://github.com/envoyproxy/envoy
+            logo: envoy.svg
+            twitter: https://twitter.com/envoyproxy
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            allow_duplicate_repo: true
+            extra:
+              accepted: '2017-09-13'
+              incubating: '2017-09-13'
+              graduated: '2018-11-28'
+              cncf_tags:
+                - https://github.com/cncf/tag-network
+              dev_stats_url: https://envoy.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#envoy-logos
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/envoyproxy
+              slack_url: https://envoyproxy.slack.com/
+              clomonitor_name: envoy
+              audits:
+                - date: '2018-02-27'
+                  type: security
+                  url: https://github.com/envoyproxy/envoy/blob/master/docs/SECURITY_AUDIT.pdf
+                  vendor: Cure53
+                - date: '2021-05-15'
+                  type: fuzzing
+                  url: https://github.com/envoyproxy/envoy/blob/main/docs/security/audit_fuzzer_adalogics_2021.pdf
+                  vendor: Ada Logics
+          - item:
+            name: NGINX
+            homepage_url: https://www.nginx.com/
+            repo_url: https://github.com/nginx/nginx
+            logo: nginx.svg
+            crunchbase: https://www.crunchbase.com/organization/nginx
+            allow_duplicate_repo: true
+      - subcategory:
+        name: API Gateway
+        items:
+          - item:
+            name: Azure API Management
+            description: >-
+              Azure API Management is a hybrid, multi-cloud API, full lifecycle management platform for APIs across all environments. It allows customers to
+              self-host API gateways as containers on Kubernetes.
+            homepage_url: https://azure.microsoft.com/en-us/services/api-management
+            repo_url: https://github.com/azure/api-management
+            logo: azure-api-management.svg
+            twitter: https://twitter.com/azureapimgmt
+            crunchbase: https://www.crunchbase.com/organization/microsoft
+      - subcategory:
+        name: Service Mesh
+        items:
+          - item:
+            name: AWS App Mesh
+            description: >-
+              AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across
+              multiple types of compute infrastructure. App Mesh standardizes how your services communicate, giving you end-to-end visibility and ensuring
+              high-availability for your applications.
+            homepage_url: https://aws.amazon.com/app-mesh/
+            logo: aws-app-mesh.svg
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+  - category:
+    name: App Definition and Development
+    subcategories:
+      - subcategory:
+        name: Database
+        items:
+          - item:
+            name: PostgreSQL
+            homepage_url: https://www.postgresql.org/
+            repo_url: https://github.com/postgres/postgres
+            logo: postgre-sql.svg
+            crunchbase: https://www.crunchbase.com/organization/postgresql
+          - item:
+            name: Redis
+            homepage_url: https://redis.io/
+            repo_url: https://github.com/redis/redis
+            logo: redis.svg
+            crunchbase: https://www.crunchbase.com/organization/redis-labs
+      - subcategory:
+        name: Streaming & Messaging
+        items:
+          - item:
+            name: Amazon Kinesis
+            description: >-
+              Amazon Kinesis makes it easy to collect, process, and analyze real-time, streaming data so you can get timely insights and react quickly to new
+              information.
+            homepage_url: https://aws.amazon.com/kinesis/
+            logo: amazon-kinesis.svg
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+          - item:
+            name: Azure Event Hubs
+            description: 'Event Hubs is a fully managed, real-time data ingestion service that’s simple, trusted, and scalable. '
+            homepage_url: https://azure.microsoft.com/en-us/services/event-hubs/
+            logo: azure-event-hubs.svg
+            twitter: https://twitter.com/azure
+            crunchbase: https://www.crunchbase.com/organization/microsoft
+          - item:
+            name: CDEvents
+            homepage_url: https://cdevents.dev
+            repo_url: https://github.com/cdevents/spec
+            logo: cdevents.svg
+            twitter: https://twitter.com/_cdevents
+            crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+          - item:
+            name: CloudEvents
+            description: Standardizing common eventing metadata and their location to help with event identification and routing.
+            homepage_url: https://cloudevents.io/
+            project: incubating
+            repo_url: https://github.com/cloudevents/spec
+            project_org: https://github.com/cloudevents
+            url_for_bestpractices: https://bestpractices.coreinfrastructure.org/en/projects/6770
+            logo: cloud-events.svg
+            twitter: https://twitter.com/cloudeventsio
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            joined: '2018-05-15'
+            extra:
+              accepted: '2018-05-15'
+              incubating: '2019-10-24'
+              dev_stats_url: https://cloudevents.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#cloudevents-logos
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/cloudevents
+              slack_url: https://cloud-native.slack.com/messages/cloudevents
+              clomonitor_name: cloudevents
+              audits:
+                - date: '2022-11-28'
+                  type: security
+                  url: https://ostif.org/wp-content/uploads/2022/11/CloudEvents.pdf
+                  vendor: Trail of Bits
+          - item:
+            name: NATS
+            description: >-
+              NATS.io is a connective technology for distributed systems and is a perfect fit to connect devices, edge, cloud or hybrid deployments. True
+              multi-tenancy makes NATS ideal for SaaS and self-healing and scaling technology allows for topology changes anytime with zero downtime.
+            homepage_url: https://nats.io/
+            project: incubating
+            repo_url: https://github.com/nats-io/nats-server
+            url_for_bestpractices: https://github.com/nats-io
+            additional_repos:
+              - repo_url: https://github.com/nats-io/nats.go
+              - repo_url: https://github.com/nats-io/nats.js
+              - repo_url: https://github.com/nats-io/nats.py
+              - repo_url: https://github.com/nats-io/nats.java
+              - repo_url: https://github.com/nats-io/nats.net
+              - repo_url: https://github.com/nats-io/nats.c
+              - repo_url: https://github.com/nats-io/nats.rs
+              - repo_url: https://github.com/nats-io/nats.deno
+              - repo_url: https://github.com/nats-io/k8s
+              - repo_url: https://github.com/nats-io/nats-surveyor
+              - repo_url: https://github.com/nats-io/natscli
+              - repo_url: https://github.com/nats-io/nats-architecture-and-design
+              - repo_url: https://github.com/nats-io/nats.docs
+              - repo_url: https://github.com/nats-io/nack
+              - repo_url: https://github.com/nats-io/nats-top
+              - repo_url: https://github.com/nats-io/terraform-provider-jetstream
+              - repo_url: https://github.com/nats-io/jetstream-gh-action
+            logo: nats.svg
+            twitter: https://twitter.com/nats_io
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2018-03-15'
+              incubating: '2018-03-15'
+              dev_stats_url: https://nats.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#nats-logos
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/nats.io
+              mailing_list_url: https://nats.io/blog/
+              slack_url: >-
+                https://natsio.slack.com/join/shared_invite/enQtMzE2NDkxNDI2NTE1LTc5ZDEzYTkwYWZkYWQ5YjY1MzBjMWZmYzA5OGQxMzlkMGQzMjYxNGM3MWYxMjNiYmNjNzIwMTVjMWE2ZDgxZGM
+              clomonitor_name: nats
+              audits:
+                - date: '2019-02-06'
+                  type: security
+                  url: https://github.com/nats-io/nats-general/blob/master/reports/Cure53_NATS_Audit.pdf
+                  vendor: Cure53
+      - subcategory:
+        name: Application Definition & Image Build
+        items:
+          - item:
+            name: Artifact Hub
+            homepage_url: https://artifacthub.io/
+            project: sandbox
+            repo_url: https://github.com/artifacthub/hub
+            logo: artifact-hub.svg
+            twitter: https://twitter.com/cncfartifacthub
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2020-06-25'
+              annual_review_url: https://github.com/cncf/toc/pull/681
+              annual_review_date: '2021-06-23'
+              dev_stats_url: https://artifacthub.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#artifact-hub-logos
+              clomonitor_name: artifact-hub
+          - item:
+            name: Backstage
+            homepage_url: https://backstage.io/
+            project: incubating
+            repo_url: https://github.com/backstage/backstage
+            logo: backstage.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2020-09-08'
+              incubating: '2022-03-15'
+              dev_stats_url: https://backstage.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/tree/master/projects/backstage
+              clomonitor_name: backstage
+              audits:
+                - date: '2022-08-23'
+                  type: security
+                  url: https://backstage.io/blog/assets/22-08-23/X41-Backstage-Audit-2022.pdf
+                  vendor: X41 D-Sec
+              blog_url: https://backstage.io/blog
+              slack_url: https://discord.gg/backstage-687207715902193673
+          - item:
+            name: Helm
+            homepage_url: https://helm.sh/
+            project: graduated
+            repo_url: https://github.com/helm/helm
+            logo: helm.svg
+            twitter: https://twitter.com/helmpack
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2018-06-01'
+              incubating: '2018-06-01'
+              graduated: '2020-05-01'
+              cncf_tags:
+                - https://github.com/cncf/tag-app-delivery
+              dev_stats_url: https://helm.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#helm-logos
+              slack_url: https://slack.k8s.io
+              chat_channel: '#helm-dev'
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/helm
+              clomonitor_name: helm
+              audits:
+                - date: '2019-04-19'
+                  type: security
+                  url: https://github.com/helm/community/blob/master/security-audit/HLM-01-report.pdf
+                  vendor: Cure 53 and Trail of Bits
+                - date: '2023-03-31'
+                  type: fuzzing
+                  url: https://github.com/helm/community/blob/main/security-audit/FUZZING_AUDIT_2022.pdf
+                  vendor: Ada Logics
+          - item:
+            name: OpenAPI
+            homepage_url: https://www.openapis.org/
+            repo_url: https://github.com/OAI/OpenAPI-Specification
+            logo: openapi.svg
+            crunchbase: https://www.crunchbase.com/organization/the-open-api-initiative
+          - item:
+            name: Packer
+            homepage_url: https://www.packer.io/
+            repo_url: https://github.com/hashicorp/packer
+            logo: packer.svg
+            crunchbase: https://www.crunchbase.com/organization/hashicorp
+      - subcategory:
+        name: Continuous Integration & Delivery
+        items:
+          - item:
+            name: Argo
+            description: Kubernetes-native tools to run workflows, manage clusters, and do GitOps right.
+            homepage_url: https://argoproj.github.io/
+            project: graduated
+            repo_url: https://github.com/argoproj/argo-cd
+            logo: argo.svg
+            twitter: https://twitter.com/argoproj
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2020-03-26'
+              incubating: '2020-03-26'
+              graduated: '2022-12-06'
+              cncf_tags:
+                - https://github.com/cncf/tag-app-delivery
+              dev_stats_url: https://argo.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/tree/master/projects/argo
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/argoproj+or+argo
+              blog_url: https://blog.argoproj.io/
+              slack_url: https://argoproj.github.io/community/join-slack
+              clomonitor_name: argo
+              audits:
+                - date: '2022-02-28'
+                  type: fuzzing
+                  url: https://github.com/argoproj/argoproj/blob/dd7cae43d81c5a11f21ff4ea0a4afadcae4799c7/docs/audit_fuzzer_adalogics_2022.pdf
+                  vendor: ADA Logics
+                - date: '2022-07-18'
+                  type: security
+                  url: https://github.com/argoproj/argoproj/blob/main/docs/argo_security_audit_2022.pdf
+                  vendor: ADA Logics
+          - item:
+            name: Flux
+            homepage_url: https://fluxcd.io/
+            project: graduated
+            repo_url: https://github.com/fluxcd/flux2
+            logo: flux.svg
+            twitter: https://twitter.com/fluxcd
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2019-07-15'
+              incubating: '2021-03-12'
+              graduated: '2022-11-30'
+              cncf_tags:
+                - https://github.com/cncf/tag-app-delivery
+              dev_stats_url: https://flux.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#flux-logos
+              blog_url: https://fluxcd.io/blog/
+              mailing_list_url: https://github.com/fluxcd/flux2/discussions
+              slack_url: https://cloud-native.slack.com/messages/flux
+              youtube_url: https://www.youtube.com/channel/UCoZxt-YMhGHb20ZkvcCc5KA
+              clomonitor_name: flux-project
+              audits:
+                - date: '2021-11-10'
+                  type: security
+                  url: https://fluxcd.io/FluxFinalReport-v1.1.pdf
+                  vendor: ADA Logics
+          - item:
+            name: GitHub Actions
+            description: >-
+              GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from
+              GitHub. Make code reviews, branch management, and issue triaging work the way you want.
+            homepage_url: https://github.com/features/actions
+            logo: github-actions.svg
+            crunchbase: https://www.crunchbase.com/organization/github
+          - item:
+            name: k6
+            description: >-
+              k6 is a developer-centric, free and open-source load testing tool built for making performance testing a productive and enjoyable experience.
+              Using k6, you'll be able to catch performance regression and problems earlier, allowing you to build resilient systems and robust applications.
+            homepage_url: https://k6.io
+            repo_url: https://github.com/grafana/k6
+            logo: k6.svg
+            twitter: https://twitter.com/k6_io
+            crunchbase: https://www.crunchbase.com/organization/raintank
+          - item:
+            name: Keptn
+            description: >-
+              Cloud-native application life-cycle orchestration. Keptn automates your SLO-driven multi-stage delivery and operations & remediation of your
+              applications.
+            homepage_url: https://www.keptn.sh
+            project: incubating
+            repo_url: https://github.com/keptn/keptn
+            logo: keptn.svg
+            twitter: https://twitter.com/keptnproject
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2020-06-25'
+              incubating: '2022-07-13'
+              dev_stats_url: https://keptn.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#keptn-logos
+              youtube_url: https://www.youtube.com/channel/UCHMn9HyAMeb81bRlaOuZyuQ
+              slack_url: https://slack.keptn.sh/
+              clomonitor_name: keptn
+          - item:
+            name: OpenGitOps
+            homepage_url: https://opengitops.dev/
+            project: sandbox
+            repo_url: https://github.com/open-gitops/project
+            logo: opengitops.svg
+            twitter: https://twitter.com/opengitops
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2021-01-26'
+              clomonitor_name: open-gitops
+          - item:
+            name: Spacelift
+            description: >-
+              Spacelift is a flexible management platform for Infrastructure as Code. It helps customize your workflows, automate manual tasks, reduce number of
+              errors, improve security and auditability of your infrastructure.
+            homepage_url: https://spacelift.io
+            logo: spacelift.svg
+            crunchbase: https://www.crunchbase.com/organization/spacelift
+          - item:
+            name: Weave GitOps
+            description: Weave GitOps enables the management of clusters and applications on scale with GitOps.
+            homepage_url: https://www.weave.works/product/gitops-enterprise/
+            logo: weaveworks.svg
+            crunchbase: https://www.crunchbase.com/organization/weaveworks
+  - category:
+    name: Platform
+    subcategories:
+      - subcategory:
+        name: Certified Kubernetes - Distribution
+        items:
+          - item:
+            name: k3s
+            description: Lightweight Kubernetes
+            homepage_url: https://k3s.io
+            project: sandbox
+            repo_url: https://github.com/k3s-io/k3s
+            logo: k3s.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2020-08-19'
+              annual_review_url: https://github.com/cncf/toc/pull/955
+              annual_review_date: '2022-11-04'
+              dev_stats_url: https://k3s.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#k3slogos
+              clomonitor_name: k3s
+          # - item:
+          #   name: vcluster
+          #   description: >-
+          #     vcluster lets you create fully functional but virtual Kubernetes clusters. Each vcluster runs inside a namespace of another Kubernetes cluster.
+          #     Using vcluster is much cheaper than creating separate full-blown clusters and it offers better multi-tenancy and isolation compared to regular
+          #     namespaces.
+          #   homepage_url: https://vcluster.com/
+          #   repo_url: https://github.com/loft-sh/vcluster
+          #   logo: vcluster.svg
+          #   crunchbase: https://www.crunchbase.com/organization/loft-labs
+      - subcategory:
+        name: Certified Kubernetes - Hosted
+        items:
+          - item:
+            name: Alibaba Cloud Container Service for Kubernetes
+            description: >-
+              Alibaba Cloud Container Service for Kubernetes (ACK) is a fully-managed service compatible with Kubernetes to help users focus on their
+              applications rather than managing container infrastructure.
+            homepage_url: https://www.alibabacloud.com/product/kubernetes
+            logo: alibaba-cloud-container-service-for-kubernetes.svg
+            crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+          - item:
+            name: Amazon Elastic Container Service for Kubernetes (EKS)
+            description: >-
+              Amazon Elastic Container Service for Kubernetes (Amazon EKS) is a managed service that makes it easy for you to run Kubernetes on AWS without
+              needing to install and operate your own Kubernetes clusters.
+            homepage_url: https://aws.amazon.com/eks/
+            logo: amazon-web-services.svg
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+          - item:
+            name: Azure Kubernetes Service (AKS)
+            description: >-
+              Simplify the deployment, management, and operations of Kubernetes. Use a fully managed Kubernetes container orchestration service or choose other
+              orchestrators.
+            homepage_url: https://azure.microsoft.com/en-us/services/kubernetes-service/
+            logo: azure-kubernetes-service.svg
+            twitter: https://twitter.com/Azure
+            crunchbase: https://www.crunchbase.com/organization/microsoft
+          - item:
+            name: Civo Kubernetes
+            description: The first cloud native service provider powered only by Kubernetes
+            homepage_url: https://www.civo.com
+            logo: civo.svg
+            crunchbase: https://www.crunchbase.com/organization/civo-49db
+          - item:
+            name: DigitalOcean Kubernetes
+            description: >-
+              DigitalOcean Kubernetes is designed for developers who want a simple and cost effective way to deploy container workloads to a managed Kubernetes
+              service.
+            homepage_url: https://www.digitalocean.com/products/kubernetes/
+            logo: digital-ocean-kubernetes.svg
+            crunchbase: https://www.crunchbase.com/organization/digitalocean
+          - item:
+            name: Exoscale Scalable Kubernetes Service
+            description: >-
+              Scalable, On-demand Kubernetes Clusters on a privacy minded public cloud to host from simple applications to complex architectures.  Deploy a
+              production ready cluster in 90 seconds and manage it with a simple web portal, CLI, API or your choice of tools like Terraform.
+            homepage_url: https://www.exoscale.com/sks/
+            logo: exoscale-member.svg
+            crunchbase: https://www.crunchbase.com/organization/exoscale
+          - item:
+            name: Google Kubernetes Engine (GKE)
+            description: >-
+              GKE is an enterprise-grade platform for containerized applications, including stateful and stateless, AI and ML, Linux and Windows, complex and
+              simple web apps, API, and backend services.
+            homepage_url: https://cloud.google.com/kubernetes-engine/
+            logo: google-kubernetes-engine.svg
+            twitter: https://twitter.com/GCPcloud
+            crunchbase: https://www.crunchbase.com/organization/google
+          - item:
+            name: IBM Cloud Kubernetes Service
+            description: >-
+              IBM Cloud Kubernetes Service is a managed offering to create your own Kubernetes cluster of compute hosts to deploy and manage containerized apps
+              on IBM Cloud.
+            homepage_url: https://www.ibm.com/cloud/kubernetes-service
+            logo: ibm-kubernetes.svg
+            twitter: https://twitter.com/IBMcloud
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: Linode Kubernetes Engine
+            description: Linode Kubernetes Engine is a fast and simple way to deploy, scale, and manage Kubernetes clusters running on Linode's global infrastructure.
+            homepage_url: https://www.linode.com/products/kubernetes/
+            logo: linode.svg
+            crunchbase: https://www.crunchbase.com/organization/akamai-technologies
+          - item:
+            name: Microsoft AKS Engine for Azure Stack
+            description: >-
+              AKS Engine provides convenient tooling to quickly bootstrap Kubernetes clusters on Azure Stack. By leveraging ARM (Azure Resource Manager), AKS
+              Engine helps create, destroy and maintain clusters provisioned with basic IaaS resources in Azure Stack.
+            homepage_url: https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-kubernetes-aks-engine-overview?view=azs-2108
+            logo: microsoft-azure.svg
+            twitter: https://twitter.com/Azure
+            crunchbase: https://www.crunchbase.com/organization/microsoft
+          - item:
+            name: Oracle Container Engine
+            description: Next generation of container-native development. Container life cycle made easy.
+            homepage_url: https://www.oracle.com/cloud-native/container-engine-kubernetes
+            logo: oracle.svg
+            twitter: https://twitter.com/oraclecloud
+            crunchbase: https://www.crunchbase.com/organization/oracle
+          - item:
+            name: OVH Managed Kubernetes Service
+            description: Benefit from free HA managed Kubernetes service by hosting your nodes and services on OVH Public Cloud.
+            homepage_url: https://www.ovhcloud.com/en-ie/public-cloud/kubernetes
+            logo: ovhcloud.svg
+            crunchbase: https://www.crunchbase.com/organization/ovh-com
+          - item:
+            name: Scaleway Kubernetes Kapsule
+            description: >-
+              Kubernetes Kapsule provides a simple way to deploy and manage your containerized applications in the cloud. Relax and focus on your software stack
+              while we take care of your clusters.
+            homepage_url: https://www.scaleway.com/en/betas/
+            logo: scaleway.svg
+            crunchbase: https://www.crunchbase.com/organization/scaleway
+          - item:
+            name: Vultr Kubernetes Engine
+            description: >-
+              Vultr Kubernetes Engine gives developers a simple way to deploy containerized workloads with predictable pricing on a fully-managed Kubernetes
+              cluster that integrates with other Vultr managed services such as Load Balancers, Block Storage, and DNS.
+            homepage_url: https://www.vultr.com/kubernetes/
+            logo: vultr.svg
+            crunchbase: https://www.crunchbase.com/organization/vultr-holdings-llc
+      - subcategory:
+        name: Certified Kubernetes - Installer
+        items:
+          - item:
+            name: kind
+            description: kind creates local multi-node Kubernetes clusters using Docker container nodes.
+            homepage_url: https://github.com/kubernetes-sigs/kind
+            repo_url: https://github.com/kubernetes-sigs/kind
+            logo: kind.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+          - item:
+            name: minikube
+            description: minikube runs a local Kubernetes cluster on macOS, Linux, and Windows.
+            homepage_url: https://minikube.sigs.k8s.io
+            repo_url: https://github.com/kubernetes/minikube
+            logo: minikube.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+      - subcategory:
+        name: PaaS/Container Service
+        items: []
+  - category:
+    name: Serverless
+    subcategories:
+      - subcategory:
+        name: Security
+        items: []
+      - subcategory:
+        name: Tools
+        items:
+          - item:
+            name: Cloud Native Landscape
+            homepage_url: https://landscape.cncf.io/
+            repo_url: https://github.com/cncf/landscapeapp
+            logo: cloud-native-landscape.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+      - subcategory:
+        name: Framework
+        items: []
+      - subcategory:
+        name: Hosted Platform
+        items:
+          - item:
+            name: AWS Lambda
+            description: >-
+              AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume - there is no charge when
+              your code is not running.
+            homepage_url: https://aws.amazon.com/lambda/
+            logo: aws-lambda.svg
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+          - item:
+            name: Azure Functions
+            description: >-
+              Develop more efficiently with Functions, an event-driven serverless compute platform that can also solve complex orchestration problems. Build and
+              debug locally without additional setup, deploy and operate at scale in the cloud, and integrate services using triggers and bindings.
+            homepage_url: https://azure.microsoft.com/en-us/services/functions/
+            repo_url: https://github.com/Azure/azure-functions-host
+            logo: azure-functions.svg
+            twitter: https://twitter.com/Azure
+            crunchbase: https://www.crunchbase.com/organization/microsoft
+      - subcategory:
+        name: Installable Platform
+        items:
+          - item:
+            name: KEDA (Serverless)
+            homepage_url: https://keda.sh/
+            project: graduated
+            repo_url: https://github.com/kedacore/keda
+            logo: keda.svg
+            twitter: https://twitter.com/kedaorg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            allow_duplicate_repo: true
+            extra:
+              accepted: '2020-03-12'
+              incubating: '2021-08-18'
+              graduated: '2023-08-22'
+              dev_stats_url: https://keda.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#keda-logos
+              blog_url: https://keda.sh/blog
+              slack_url: https://kubernetes.slack.com/archives/CKZJ36A5D
+              youtube_url: https://www.youtube.com/playlist?list=PLvjRi5R9GQfASIcL4MLTfg2ZOoBdIi5Kq
+              clomonitor_name: keda
+              audits:
+                - date: '2023-02-02'
+                  type: security
+                  url: https://github.com/trailofbits/publications/blob/master/reviews/2023-01-keda-securityreview.pdf
+                  vendor: Trail of Bits
+  - category:
+    name: Observability and Analysis
+    subcategories:
+      - subcategory:
+        name: Monitoring
+        items:
+          - item:
+            name: Amazon CloudWatch
+            description: >-
+              Amazon CloudWatch is a monitoring and management service built for developers, system operators, site reliability engineers (SRE), and IT
+              managers. CloudWatch provides you with data and actionable insights to monitor your applications, understand and respond to system-wide
+              performance changes, optimize resource utilization, and get a unified view of operational health.
+            homepage_url: https://aws.amazon.com/cloudwatch/
+            logo: amazon-cloudwatch.svg
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+          - item:
+            name: Azure Monitor
+            description: >-
+              Collect, analyze, and act on telemetry data from your Azure and on-premises environments. Azure Monitor helps you maximize performance and
+              availability of your applications and proactively identify problems in seconds.
+            homepage_url: https://azure.microsoft.com/en-us/services/monitor/
+            logo: azure-monitor.svg
+            twitter: https://twitter.com/azure
+            crunchbase: https://www.crunchbase.com/organization/microsoft
+          - item:
+            name: Datadog
+            homepage_url: https://www.datadoghq.com/
+            logo: datadog.svg
+            crunchbase: https://www.crunchbase.com/organization/datadog
+          - item:
+            name: Google Stackdriver
+            description: >-
+              Stackdriver aggregates metrics, logs, and events from infrastructure, giving developers and operators a rich set of observable signals that speed
+              root-cause analysis and reduce mean time to resolution (MTTR).
+            homepage_url: https://cloud.google.com/products/operations
+            logo: google-stackdriver.svg
+            twitter: https://twitter.com/GCPcloud
+            crunchbase: https://www.crunchbase.com/organization/google
+          - item:
+            name: Grafana
+            description: >-
+              Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share beautiful
+              dashboards with your team and foster a data driven culture.
+            homepage_url: https://grafana.com/
+            repo_url: https://github.com/grafana/grafana
+            logo: grafana.svg
+            crunchbase: https://www.crunchbase.com/organization/raintank
+          - item:
+            name: Grafana Mimir
+            description: >-
+              Grafana Mimir lets you scale to 1 billion metrics and beyond, with high availability, multi-tenancy, durable storage, and blazing fast query
+              performance over long periods of time.
+            homepage_url: https://grafana.com/oss/mimir
+            repo_url: https://github.com/grafana/mimir
+            logo: grafana-mimir.svg
+            crunchbase: https://www.crunchbase.com/organization/raintank
+          - item:
+            name: Grafana Phlare
+            description: >-
+              Grafana Phlare is an open source database that provides fast, scalable, highly-available, and efficient storage and querying of profiling data. By
+              doing so, it allows you to understand your application performance and optimize your infrastructure spend. It natively integrates with Grafana,
+              making it possible to connect your profiling data to your metrics, logs, and traces, and get a comprehensive view of your entire stack.
+            homepage_url: https://grafana.com/oss/phlare
+            repo_url: https://github.com/grafana/phlare
+            logo: grafana-phlare.svg
+            crunchbase: https://www.crunchbase.com/organization/raintank
+          - item:
+            name: Hubble
+            homepage_url: https://github.com/cilium/hubble
+            repo_url: https://github.com/cilium/hubble
+            logo: hubble(rgb).svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              parent_project: Cilium
+          - item:
+            name: K8sGPT
+            homepage_url: https://www.k8sgpt.ai
+            repo_url: https://github.com/k8sgpt-ai/k8sgpt
+            logo: k8sgpt.svg
+            crunchbase: https://www.crunchbase.com/organization/k8sgpt-ai
+          - item:
+            name: Kiali
+            homepage_url: https://www.kiali.io/
+            repo_url: https://github.com/kiali/kiali
+            logo: kiali.svg
+            twitter: https://twitter.com/kialiproject
+            crunchbase: https://www.crunchbase.com/organization/red-hat
+          - item:
+            name: Prometheus
+            homepage_url: https://prometheus.io/
+            project: graduated
+            repo_url: https://github.com/prometheus/prometheus
+            logo: prometheus.svg
+            twitter: https://twitter.com/PrometheusIO
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2016-05-09'
+              incubating: '2016-05-09'
+              graduated: '2018-08-09'
+              cncf_tags:
+                - https://github.com/cncf/tag-observability
+              dev_stats_url: https://prometheus.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#prometheus-logos
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/prometheus
+              blog_url: https://prometheus.io/blog/
+              mailing_list_url: https://prometheus.io/community/
+              slack_url: https://libera.chat/
+              chat_channel: '#prometheus'
+              clomonitor_name: prometheus
+              audits:
+                - date: '2018-06-11'
+                  type: security
+                  url: https://prometheus.io/assets/downloads/2018-06-11--cure53_security_audit.pdf
+                  vendor: Cure53
+                - date: '2020-07-21'
+                  type: security
+                  url: https://prometheus.io/assets/downloads/2020-07-21--cure53_security_audit_node_exporter.pdf
+                  vendor: Cure53
+          # - item:
+          #   name: VictoriaMetrics
+          #   homepage_url: https://victoriametrics.com/
+          #   repo_url: https://github.com/VictoriaMetrics/VictoriaMetrics
+          #   logo: victoriametrics.svg
+          #   crunchbase: https://www.crunchbase.com/organization/victoriametrics
+      - subcategory:
+        name: Feature Flagging
+        items:
+          - item:
+            name: OpenFeature
+            description: Standardizing Feature Flagging for Everyone
+            homepage_url: https://openfeature.dev/
+            project: incubating
+            repo_url: https://github.com/open-feature/spec
+            logo: openfeature.svg
+            twitter: https://twitter.com/openfeature
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2022-06-17'
+              incubating: '2023-11-21'
+              dev_stats_url: https://openfeature.devstats.cncf.io/
+              blog_url: https://docs.openfeature.dev/blog
+              slack_url: https://cloud-native.slack.com/messages/openfeature
+              youtube_url: https://www.youtube.com/channel/UCXSFt-dT2HORGXz1-ksxtxw
+              specification: true
+              clomonitor_name: openfeature
+      - subcategory:
+        name: Logging
+        items:
+          - item:
+            name: Alibaba Cloud Log Service
+            homepage_url: https://www.alibabacloud.com/product/log-service
+            logo: alibaba-cloud-log-service.svg
+            crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+          - item:
+            name: Grafana Loki
+            description: >-
+              Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus. It is designed to be very cost
+              effective and easy to operate. It does not index the contents of the logs, but rather a set of labels for each log stream.
+            homepage_url: https://grafana.com/oss/loki
+            repo_url: https://github.com/grafana/loki
+            logo: grafana-loki.svg
+            crunchbase: https://www.crunchbase.com/organization/raintank
+      - subcategory:
+        name: Tracing
+        items:
+          - item:
+            name: Grafana Tempo
+            description: >-
+              Grafana Tempo is an open source, easy-to-use and high-scale distributed tracing backend. Tempo is cost-efficient, requiring only object storage to
+              operate, and is deeply integrated with Grafana, Prometheus, and Loki. Tempo can be used with any of the open source tracing protocols, including
+              Jaeger, Zipkin, and OpenTelemetry.
+            homepage_url: https://grafana.com/oss/tempo/
+            repo_url: https://github.com/grafana/tempo
+            logo: grafana-tempo.svg
+            crunchbase: https://www.crunchbase.com/organization/raintank
+          - item:
+            name: Jaeger
+            homepage_url: https://www.jaegertracing.io/
+            project: graduated
+            repo_url: https://github.com/jaegertracing/jaeger
+            logo: jaeger.svg
+            twitter: https://twitter.com/JaegerTracing
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2017-09-13'
+              incubating: '2017-09-13'
+              graduated: '2019-10-31'
+              cncf_tags:
+                - https://github.com/cncf/tag-observability
+              dev_stats_url: https://jaeger.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#jaeger-logos
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/jaeger
+              blog_url: https://medium.com/jaegertracing/
+              mailing_list_url: https://groups.google.com/forum/#!forum/jaeger-tracing
+              slack_url: https://slack.cncf.io/
+              chat_channel: '#jaeger'
+              clomonitor_name: jaeger
+              audits:
+                - date: '2019-05-04'
+                  type: security
+                  url: https://github.com/jaegertracing/security-audits/blob/master/SECURITY_AUDIT_2019_05_04.pdf
+                  vendor: Cure53
+          - item:
+            name: OpenTelemetry
+            homepage_url: https://opentelemetry.io/
+            project: incubating
+            repo_url: https://github.com/open-telemetry/opentelemetry-java
+            logo: open-telemetry.svg
+            twitter: https://twitter.com/opentelemetry
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2019-05-07'
+              incubating: '2021-08-26'
+              dev_stats_url: https://opentelemetry.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#opentelemetry-logos
+              slack_url: https://cloud-native.slack.com/messages/opentelemetry
+              gitter_url: https://gitter.im/open-telemetry/community
+              specification: true
+              chat_channel: '#opentelemetry'
+              clomonitor_name: open-telemetry
+      - subcategory:
+        name: Chaos Engineering
+        items:
+          - item:
+            name: Chaos Mesh
+            homepage_url: https://chaos-mesh.org/
+            project: incubating
+            repo_url: https://github.com/chaos-mesh/chaos-mesh
+            logo: chaos-mesh.svg
+            twitter: https://twitter.com/chaos_mesh
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2020-07-14'
+              incubating: '2022-02-16'
+              annual_review_url: https://github.com/cncf/toc/pull/944
+              annual_review_date: '2022-10-18'
+              dev_stats_url: https://chaosmesh.devstats.cncf.io/
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#chaos-mesh-logos
+              blog_url: https://chaos-mesh.org/blog/
+              slack_url: https://join.slack.com/t/cloud-native/shared_invite/zt-fyy3b8up-qHeDNVqbz1j8HDY6g1cY4w
+              youtube_url: https://www.youtube.com/channel/UC4OwT4QTd0ML3YNnV1ybT6g
+              clomonitor_name: chaos-mesh
+          - item:
+            name: Litmus
+            homepage_url: https://litmuschaos.io/
+            project: incubating
+            repo_url: https://github.com/litmuschaos/litmus
+            logo: litmus.svg
+            twitter: https://twitter.com/litmuschaos
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2020-06-25'
+              incubating: '2022-01-11'
+              dev_stats_url: https://litmuschaos.devstats.cncf.io/
+              slack_url: https://kubernetes.slack.com/messages/CNXNB0ZTN
+              youtube_url: https://www.youtube.com/channel/UCa57PMqmz_j0wnteRa9nCaw
+              clomonitor_name: litmus-chaos
+      - subcategory:
+        name: Continuous Optimization
+        items:
+          - item:
+            name: OpenCost
+            description: OpenCost provides visibility into current and historical Kubernetes spend and resource allocation.
+            homepage_url: https://www.opencost.io/
+            project: sandbox
+            repo_url: https://github.com/opencost/opencost
+            logo: opencost.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2022-06-17'
+              slack_url: https://slack.cncf.io/
+              chat_channel: '#opencost'
+              clomonitor_name: opencost
+  - category:
+    name: Cloud implementations
+    subcategories:
+      - subcategory:
+        name: Cloud Providers
+        items:
+          - item:
+            name: Alibaba Cloud (member)
+            homepage_url: https://us.alibabacloud.com/
+            logo: alibaba-cloud-member.svg
+            crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+            joined: '2017-05-01'
+          - item:
+            name: Amazon Web Services (member)
+            homepage_url: https://aws.amazon.com/
+            logo: amazon-web-services.svg
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+            joined: '2017-08-01'
+          - item:
+            name: Google Cloud (member)
+            homepage_url: https://cloud.google.com/
+            logo: google-cloud.svg
+            twitter: https://twitter.com/GCPcloud
+            crunchbase: https://www.crunchbase.com/organization/google
+            joined: '2016-01-01'
+          - item:
+            name: Microsoft (member)
+            homepage_url: https://azure.microsoft.com/en-us/products/kubernetes-service/
+            logo: microsoft-azure.svg
+            twitter: https://twitter.com/Azure
+            crunchbase: https://www.crunchbase.com/organization/microsoft
+            joined: '2017-08-01'
+          - item:
+            name: Oracle (member)
+            homepage_url: https://www.oracle.com/index.html
+            logo: oracle.svg
+            twitter: https://twitter.com/oraclecloud
+            crunchbase: https://www.crunchbase.com/organization/oracle
+            joined: '2017-08-01'
+          - item:
+            name: Exoscale (member)
+            homepage_url: https://www.exoscale.com
+            logo: exoscale-member.svg
+            crunchbase: https://www.crunchbase.com/organization/exoscale
+            joined: '2016-09-01'
+          - item:
+            name: Civo (member)
+            homepage_url: https://www.civo.com
+            logo: civo.svg
+            crunchbase: https://www.crunchbase.com/organization/civo-49db
+            joined: '2021-03-01'
+          - item:
+            name: Vultr (member)
+            homepage_url: https://www.vultr.com/
+            logo: vultr.svg
+            crunchbase: https://www.crunchbase.com/organization/vultr-holdings-llc
+            joined: '2021-03-01'
