@@ -15,7 +15,5 @@
 # SPDX-License-Identifier: Apache-2.0
 
 [build]
-base = "netlify"
 publish = "build"
 command = "(curl --proto '=https' --tlsv1.2 -LsSf https://github.com/cncf/landscape2/releases/download/v0.3.3/landscape2-installer.sh | sh) && make landscape-build"
-ignore = "false"
