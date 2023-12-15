@@ -62,20 +62,20 @@ images:
 #       - <SUBCATEGORY1_NAME>
 #       - <SUBCATEGORY2_NAME>
 #
-categories:
-  - name: CNCF Members
-    subcategories:
-      - Platinum
-      - Gold
-      - Silver
-      - End User Supporter
-      - Nonprofit
-      - Academic
-  - name: Special
-    subcategories:
-      - Kubernetes Certified Service Provider
-      - Kubernetes Training Partner
-      - Certified CNFs
+# categories:
+#   - name: CNCF Members
+#     subcategories:
+#       - Platinum
+#       - Gold
+#       - Silver
+#       - End User Supporter
+#       - Nonprofit
+#       - Academic
+#   - name: Special
+#     subcategories:
+#       - Kubernetes Certified Service Provider
+#       - Kubernetes Training Partner
+#       - Certified CNFs
 
 # Colors (optional)
 #
@@ -121,19 +121,19 @@ colors:
 #       - value: <SUBCATEGORY1_NAME>
 #       - value: <SUBCATEGORY2_NAME>
 #
-featured_items:
-  - field: maturity
-    options:
-      - value: graduated
-        order: 1
-        label: CNCF Graduated
-      - value: incubating
-        order: 2
-        label: CNCF Incubating
-  - field: subcategory
-    options:
-      - value: Platinum
-      - value: Gold
+# featured_items:
+#   - field: maturity
+#     options:
+#       - value: graduated
+#         order: 1
+#         label: CNCF Graduated
+#       - value: incubating
+#         order: 2
+#         label: CNCF Incubating
+#   - field: subcategory
+#     options:
+#       - value: Platinum
+#       - value: Gold
 
 # Grid items size (optional)
 #

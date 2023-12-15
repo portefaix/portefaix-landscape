@@ -23,6 +23,6 @@ repository:
   name: "portefaix-landscape"
   description: "Landscape website for Portefaix"
   topics: portefaix, landscape
-  private: true
+  private: false
 
 labels:
