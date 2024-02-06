@@ -47,7 +47,7 @@ jobs:
         run: apk add --update --no-progress tar
 
       - name: Setup cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: /tmp/landscape-cache
           key: landscape-cache-${{ inputs.foundation }}-${{ github.sha }}-${{ github.run_id }}
