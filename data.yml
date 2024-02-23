@@ -83,11 +83,6 @@ landscape:
         name: Security & Compliance
         items:
           - item:
-            name: Aqua
-            homepage_url: https://www.aquasec.com/
-            logo: aqua.svg
-            crunchbase: https://www.crunchbase.com/organization/aquasecurity
-          - item:
             name: cert-manager
             homepage_url: https://cert-manager.io/
             project: incubating
@@ -377,19 +372,6 @@ landscape:
               dev_stats_url: https://longhorn.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#longhorn-logos
               clomonitor_name: longhorn
-          - item:
-            name: MinIO
-            homepage_url: https://min.io/
-            repo_url: https://github.com/minio/minio
-            logo: min-io.svg
-            crunchbase: https://www.crunchbase.com/organization/minio-inc
-          - item:
-            name: Velero
-            homepage_url: https://velero.io
-            repo_url: https://github.com/vmware-tanzu/velero
-            logo: project-velero.svg
-            twitter: https://twitter.com/projectvelero
-            crunchbase: https://www.crunchbase.com/organization/vmware
       - subcategory:
         name: Container Runtime
         items:
@@ -1429,13 +1411,6 @@ landscape:
             logo: k8sgpt.svg
             crunchbase: https://www.crunchbase.com/organization/k8sgpt-ai
           - item:
-            name: Kiali
-            homepage_url: https://www.kiali.io/
-            repo_url: https://github.com/kiali/kiali
-            logo: kiali.svg
-            twitter: https://twitter.com/kialiproject
-            crunchbase: https://www.crunchbase.com/organization/red-hat
-          - item:
             name: Prometheus
             homepage_url: https://prometheus.io/
             project: graduated
@@ -1523,33 +1498,6 @@ landscape:
             repo_url: https://github.com/grafana/tempo
             logo: grafana-tempo.svg
             crunchbase: https://www.crunchbase.com/organization/raintank
-          - item:
-            name: Jaeger
-            homepage_url: https://www.jaegertracing.io/
-            project: graduated
-            repo_url: https://github.com/jaegertracing/jaeger
-            logo: jaeger.svg
-            twitter: https://twitter.com/JaegerTracing
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            extra:
-              accepted: '2017-09-13'
-              incubating: '2017-09-13'
-              graduated: '2019-10-31'
-              cncf_tags:
-                - https://github.com/cncf/tag-observability
-              dev_stats_url: https://jaeger.devstats.cncf.io/
-              artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#jaeger-logos
-              stack_overflow_url: https://stackoverflow.com/questions/tagged/jaeger
-              blog_url: https://medium.com/jaegertracing/
-              mailing_list_url: https://groups.google.com/forum/#!forum/jaeger-tracing
-              slack_url: https://slack.cncf.io/
-              chat_channel: '#jaeger'
-              clomonitor_name: jaeger
-              audits:
-                - date: '2019-05-04'
-                  type: security
-                  url: https://github.com/jaegertracing/security-audits/blob/master/SECURITY_AUDIT_2019_05_04.pdf
-                  vendor: Cure53
           - item:
             name: OpenTelemetry
             homepage_url: https://opentelemetry.io/
