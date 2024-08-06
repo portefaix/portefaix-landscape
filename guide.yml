@@ -14,59 +14,29 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
+---
 categories:
   - category: "Introduction"
     content: |
       If you've researched cloud native applications and technologies, you've probably come
-      across the [CNCF cloud native landscape](https://cncf.landscape2.io). Unsurprisingly,
-      the sheer scale of it can be overwhelming. So many categories and so many technologies.
-      How do you make sense of it?
+      across the [CNCF cloud native landscape](https://landscape.cncf.io).
 
-      As with anything else, if you break it down and analyze it one piece at a time, you'll
-      find it's not that complex and makes a lot of sense. In fact, the map is neatly organized
-      by functionality and, once you understand what each category represents, navigating it
-      becomes a lot easier.
-
-      In this guide, we'll break this mammoth landscape down and provide a high-level overview
-      of its layers, columns, and categories.
+       In this guide, we'll break down the components used by Portefaix, and provide an overview
+       of its layers, columns and categories.
 
     subcategories:
       - subcategory: "What is the Portefaix landscape?"
         content: |
-          The goal of the Portefaix landscape is to compile and organize all cloud native open
-          source projects and proprietary products into categories, providing an overview of the
-          current ecosystem.
+          The goal of the Portefaix landscape is to compile and organize cloud native open
+          source projects and proprietary products used by Portefaix, into categories, providing
+          an overview of the current ecosystem.
 
       - subcategory: "How to use this guide"
         content: |
           In this guide, you'll find one chapter per layer and column which discusses each category
           within it. Categories are broken down into: what it is, the problem it addresses, how it
           helps, and technical 101. While the first three sections assume no technical background,
-          the technical 101 is targeted to engineers just getting started with cloud native. We
-          also included a section for associated buzzwords and lists CNCF projects.
-
-          > ##### INFOBOX
-          >
-          > When looking at the landscape, you'll note a few distinctions:
-          >  * *Items in large boxes* are featured items, and they are used to highlight special
-          >     entries, like CNCF-hosted graduated or incubating projects, or platinum and gold
-          >     members.
-          >  * *Items in small white boxes* are open source projects. This includes CNCF-hosted
-          >     sandbox projects.
-          >  * *Items in gray boxes* are proprietary products.
-          >
-          > Please note that new projects are continuously becoming part of the CNCF so
-          > always refer to the actual landscape - things are moving fast!
-
-      - subcategory: "Contribute to the CNCF Landscape"
-        content: |
-          Are you searching for an exciting project to contribute to within the CNCF ecosystem?
-          Look no further! The CNCF hosts a wide range of projects that span cloud-native computing.
-          To find the perfect project for your skills and interests, check out our comprehensive
-          contribution guide at [Getting Started](https://contribute.cncf.io/contributors/getting-started/).
-          It provides you step-by-step instructions on getting started and offers valuable insights for
-          both newcomers and experienced contributors. Join our vibrant community and make your mark on
-          cloud-native innovation today!
+          the technical 101 is targeted to engineers just getting started with cloud native.
 
   - category: "Provisioning"
     content: |
@@ -1227,6 +1197,31 @@ categories:
           done in a distributed system) need to be propagated by infrastructure components (e.g. service
           meshes and their proxies) in the data path of your application. Jaeger and Open Tracing are CNCF
           projects in this space.
+
+      - subcategory: "Profiling"
+        keywords:
+          - "Profiling"
+        content: |
+          #### What it is
+
+          #### Problem It addresses
+
+          #### How it helps
+
+          #### Technical 101
+
+      - subcategory: "Telemetry"
+        keywords:
+          - "Telemetry"
+          - "OpenTelemetry"
+        content: |
+          #### What it is
+
+          #### Problem It addresses
+
+          #### How it helps
+
+          #### Technical 101
 
       - subcategory: "Chaos Engineering"
         keywords:

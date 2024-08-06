@@ -14,6 +14,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
+---
 landscape:
   - category:
     name: Provisioning
@@ -23,6 +24,9 @@ landscape:
         items:
           - item:
             name: Ansible
+            description: >-
+              Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain.
+              Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems
             homepage_url: https://www.ansible.com/
             repo_url: https://github.com/ansible/ansible
             logo: ansible.svg
@@ -30,6 +34,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/red-hat
           - item:
             name: Terraform
+            description: >-
+              Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available
+              tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
             homepage_url: https://www.terraform.io/
             repo_url: https://github.com/hashicorp/terraform
             logo: terraform.svg
@@ -84,6 +91,8 @@ landscape:
         items:
           - item:
             name: cert-manager
+            description: >-
+              Automatically provision and manage TLS certificates in Kubernetes
             homepage_url: https://cert-manager.io/
             project: incubating
             repo_url: https://github.com/cert-manager/cert-manager
@@ -98,12 +107,16 @@ landscape:
               clomonitor_name: cert-manager
           - item:
             name: Chef InSpec
+            description: >-
+              Chef Infra, a powerful automation platform that transforms infrastructure into code automating how infrastructure is configured, deployed and managed across any environment, at any scale
             homepage_url: https://community.chef.io/tools/chef-inspec
             repo_url: https://github.com/inspec/inspec
             logo: chef_inspec.svg
             crunchbase: https://www.crunchbase.com/organization/chef
           - item:
             name: Dex
+            description: >-
+              OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
             homepage_url: https://dexidp.io/
             project: sandbox
             repo_url: https://github.com/dexidp/dex
@@ -116,6 +129,8 @@ landscape:
               clomonitor_name: dex
           - item:
             name: external-secrets
+            description: >-
+              External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.
             homepage_url: https://external-secrets.io/
             project: sandbox
             repo_url: https://github.com/external-secrets/external-secrets
@@ -128,6 +143,8 @@ landscape:
               clomonitor_name: external-secrets
           - item:
             name: Falco
+            description: >-
+              Cloud Native Runtime Security
             homepage_url: https://falco.org/
             project: incubating
             repo_url: https://github.com/falcosecurity/falco
@@ -168,6 +185,8 @@ landscape:
           #     clomonitor_name: kubewarden
           - item:
             name: Kyverno
+            description: >-
+              Cloud Native Policy Management
             homepage_url: https://kyverno.io/
             project: incubating
             repo_url: https://github.com/kyverno/kyverno
@@ -217,6 +236,8 @@ landscape:
           #         vendor: Cure53
           - item:
             name: Tetragon
+            description: >-
+              eBPF-based Security Observability and Runtime Enforcement
             homepage_url: https://github.com/cilium/tetragon
             repo_url: https://github.com/cilium/tetragon
             logo: tetragon-logo-wormark.svg
@@ -227,12 +248,6 @@ landscape:
               dev_stats_url: https://cilium.devstats.cncf.io/
               slack_url: https://cilium.herokuapp.com/
               parent_project: Cilium
-          - item:
-            name: Trivy
-            homepage_url: https://github.com/aquasecurity/trivy
-            repo_url: https://github.com/aquasecurity/trivy
-            logo: trivy.svg
-            crunchbase: https://www.crunchbase.com/organization/aquasecurity
           - item:
             name: Trivy-Operator
             description: >-
@@ -246,12 +261,12 @@ landscape:
       - subcategory:
         name: Key Management
         items:
-          - item:
-            name: OAuth2 Proxy
-            homepage_url: https://oauth2-proxy.github.io/oauth2-proxy/
-            repo_url: https://github.com/oauth2-proxy/oauth2-proxy
-            logo: oauth2-proxy.svg
-            crunchbase: https://www.crunchbase.com/organization/oauth2-proxy
+          # - item:
+          #   name: OAuth2 Proxy
+          #   homepage_url: https://oauth2-proxy.github.io/oauth2-proxy/
+          #   repo_url: https://github.com/oauth2-proxy/oauth2-proxy
+          #   logo: oauth2-proxy.svg
+          #   crunchbase: https://www.crunchbase.com/organization/oauth2-proxy
           # - item:
           #   name: Teleport
           #   homepage_url: https://goteleport.com
@@ -260,6 +275,8 @@ landscape:
           #   crunchbase: https://www.crunchbase.com/organization/gravitational
           - item:
             name: Vault
+            description: >-
+              A tool for secrets management, encryption as a service, and privileged access management
             homepage_url: https://www.vaultproject.io/
             repo_url: https://github.com/hashicorp/vault
             logo: vault.svg
@@ -348,6 +365,8 @@ landscape:
         items:
           - item:
             name: containerd
+            description: >-
+              An open and reliable container runtime
             homepage_url: https://containerd.io/
             project: graduated
             repo_url: https://github.com/containerd/containerd
@@ -374,6 +393,8 @@ landscape:
                   vendor: Ada Logics
           - item:
             name: CRI-O
+            description: >-
+              Open Container Initiative-based implementation of Kubernetes Container Runtime Interface
             homepage_url: https://cri-o.io/
             project: graduated
             repo_url: https://github.com/cri-o/cri-o
@@ -399,12 +420,16 @@ landscape:
                   vendor: ADA Logics
           - item:
             name: Firecracker
+            description: >-
+              Secure and fast microVMs for serverless computing.
             homepage_url: https://firecracker-microvm.github.io/
             repo_url: https://github.com/firecracker-microvm/firecracker
             logo: firecracker.svg
             crunchbase: https://www.crunchbase.com/organization/amazon-web-services
           - item:
             name: gVisor
+            description: >-
+              Application Kernel for Containers
             homepage_url: https://gvisor.dev/
             repo_url: https://github.com/google/gvisor
             logo: gvisor.svg
@@ -427,6 +452,9 @@ landscape:
               clomonitor_name: lima
           - item:
             name: WasmEdge Runtime
+            description: >-
+              WasmEdge is a lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge,
+              and decentralized applications. It powers serverless apps, embedded functions, microservices, smart contracts, and IoT devices.
             homepage_url: https://wasmedge.org/
             project: sandbox
             repo_url: https://github.com/WasmEdge/WasmEdge
@@ -446,6 +474,8 @@ landscape:
         items:
           - item:
             name: Cilium
+            description: >-
+              eBPF-based Networking, Security, and Observability
             homepage_url: https://cilium.io/
             project: graduated
             repo_url: https://github.com/cilium/cilium
@@ -472,6 +502,8 @@ landscape:
                   vendor: Ada Logics
           - item:
             name: Container Network Interface (CNI)
+            description: >-
+              Container Network Interface - networking for Linux containers
             homepage_url: https://www.cni.dev/
             project: incubating
             repo_url: https://github.com/containernetworking/cni
@@ -504,6 +536,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/amazon-web-services
           - item:
             name: Azure Service Fabric
+            description: >-
+              Service Fabric is a distributed systems platform for packaging, deploying, and managing stateless and stateful
+              distributed applications and containers at large scale.
             homepage_url: https://docs.microsoft.com/en-us/azure/service-fabric/
             repo_url: https://github.com/Microsoft/service-fabric
             logo: azure-service-fabric.svg
@@ -511,6 +546,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Crossplane
+            description: >-
+              Crossplane is the cloud native control plane framework that allows you to build control planes without needing to write code.
+              Crossplane has a highly extensible backend that enables you to orchestrate applications and infrastructure no matter where they
+              run and a highly configurable frontend that lets you define the declarative API it offers.
             homepage_url: https://crossplane.io/
             project: incubating
             repo_url: https://github.com/crossplane/crossplane
@@ -535,6 +574,8 @@ landscape:
                   vendor: Ada Logics
           - item:
             name: KEDA
+            description: >-
+              KEDA is a Kubernetes-based Event Driven Autoscaling component. It provides event driven scale for any container running in Kubernetes
             homepage_url: https://keda.sh/
             project: graduated
             repo_url: https://github.com/kedacore/keda
@@ -614,6 +655,7 @@ landscape:
         items:
           - item:
             name: CoreDNS
+            description: A DNS server that chains plugins
             homepage_url: https://coredns.io/
             project: graduated
             repo_url: https://github.com/coredns/coredns
@@ -641,6 +683,7 @@ landscape:
                   vendor: Cure53
           - item:
             name: etcd
+            description: Distributed reliable key-value store for the most critical data of a distributed system
             homepage_url: https://etcd.io/
             project: graduated
             repo_url: https://github.com/etcd-io/etcd
@@ -674,6 +717,7 @@ landscape:
         items:
           - item:
             name: gRPC
+            description: The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)
             homepage_url: https://grpc.io/
             project: incubating
             repo_url: https://github.com/grpc/grpc
@@ -700,6 +744,8 @@ landscape:
         items:
           - item:
             name: Envoy
+            description: >-
+              Cloud-native high-performance edge/middle/service proxy
             homepage_url: https://www.envoyproxy.io
             project: graduated
             repo_url: https://github.com/envoyproxy/envoy
@@ -767,16 +813,37 @@ landscape:
         items:
           - item:
             name: PostgreSQL
+            description: >-
+              A free and open-source relational database management system (RDBMS) emphasizing extensibility and SQL compliance
             homepage_url: https://www.postgresql.org/
             repo_url: https://github.com/postgres/postgres
             logo: postgre-sql.svg
             crunchbase: https://www.crunchbase.com/organization/postgresql
           - item:
             name: Redis
+            description: >-
+              Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of
+              values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, Streams, HyperLogLogs, Bitmaps.
             homepage_url: https://redis.io/
             repo_url: https://github.com/redis/redis
             logo: redis.svg
             crunchbase: https://www.crunchbase.com/organization/redis-labs
+          - item:
+            name: CloudNativePG
+            description: >-
+              CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments,
+              covering the entire operational lifecycle from initial deployment to ongoing maintenance
+            homepage_url: https://www.cloudnative-pg.io/
+            repo_url: https://github.com/cloudnative-pg/cloudnative-pg
+            logo: cloudnative-pg.svg
+          - item:
+            name: DragonflyDB
+            description: >-
+              A modern replacement for Redis and Memcached
+            homepage_url: https://dragonflydb.io/
+            repo_url: https://github.com/dragonflydb/dragonfly
+            logo: dragonflydb.svg
+            crunchbase: https://www.crunchbase.com/organization/dragonflydb
       - subcategory:
         name: Streaming & Messaging
         items:
@@ -797,6 +864,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: CDEvents
+            description: >-
+              A common specification for Continuous Delivery events
             homepage_url: https://cdevents.dev
             repo_url: https://github.com/cdevents/spec
             logo: cdevents.svg
@@ -877,6 +946,7 @@ landscape:
         items:
           - item:
             name: Artifact Hub
+            description: Find, install and publish Cloud Native packages
             homepage_url: https://artifacthub.io/
             project: sandbox
             repo_url: https://github.com/artifacthub/hub
@@ -885,6 +955,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2020-06-25'
+              incubating: '2024-05-30'
               annual_review_url: https://github.com/cncf/toc/pull/681
               annual_review_date: '2021-06-23'
               dev_stats_url: https://artifacthub.devstats.cncf.io/
@@ -912,6 +983,7 @@ landscape:
           #     slack_url: https://discord.gg/backstage-687207715902193673
           - item:
             name: Helm
+            description: The Kubernetes Package Manager
             homepage_url: https://helm.sh/
             project: graduated
             repo_url: https://github.com/helm/helm
@@ -947,6 +1019,7 @@ landscape:
           #   crunchbase: https://www.crunchbase.com/organization/the-open-api-initiative
           - item:
             name: Packer
+            description: Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.
             homepage_url: https://www.packer.io/
             repo_url: https://github.com/hashicorp/packer
             logo: packer.svg
@@ -1327,6 +1400,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Datadog
+            description: >-
+              Datadog offers monitoring and analytics for cloud-based workflows.
             homepage_url: https://www.datadoghq.com/
             logo: datadog.svg
             crunchbase: https://www.crunchbase.com/organization/datadog
@@ -1358,17 +1433,8 @@ landscape:
             logo: grafana-mimir.svg
             crunchbase: https://www.crunchbase.com/organization/raintank
           - item:
-            name: Grafana Phlare
-            description: >-
-              Grafana Phlare is an open source database that provides fast, scalable, highly-available, and efficient storage and querying of profiling data. By
-              doing so, it allows you to understand your application performance and optimize your infrastructure spend. It natively integrates with Grafana,
-              making it possible to connect your profiling data to your metrics, logs, and traces, and get a comprehensive view of your entire stack.
-            homepage_url: https://grafana.com/oss/phlare
-            repo_url: https://github.com/grafana/phlare
-            logo: grafana-phlare.svg
-            crunchbase: https://www.crunchbase.com/organization/raintank
-          - item:
             name: Hubble
+            description: Network, Service & Security Observability for Kubernetes using eBPF
             homepage_url: https://github.com/cilium/hubble
             repo_url: https://github.com/cilium/hubble
             logo: hubble(rgb).svg
@@ -1377,12 +1443,15 @@ landscape:
               parent_project: Cilium
           - item:
             name: K8sGPT
+            description: Giving Kubernetes Superpowers to everyone
             homepage_url: https://www.k8sgpt.ai
             repo_url: https://github.com/k8sgpt-ai/k8sgpt
             logo: k8sgpt.svg
             crunchbase: https://www.crunchbase.com/organization/k8sgpt-ai
           - item:
             name: Prometheus
+            description: >-
+              The Prometheus monitoring system and time series database.
             homepage_url: https://prometheus.io/
             project: graduated
             repo_url: https://github.com/prometheus/prometheus
@@ -1457,23 +1526,13 @@ landscape:
             logo: grafana-loki.svg
             crunchbase: https://www.crunchbase.com/organization/raintank
       - subcategory:
-        name: Tracing
+        name: Telemetry
         items:
-          - item:
-            name: Grafana Tempo
-            description: >-
-              Grafana Tempo is an open source, easy-to-use and high-scale distributed tracing backend. Tempo is cost-efficient, requiring only object storage to
-              operate, and is deeply integrated with Grafana, Prometheus, and Loki. Tempo can be used with any of the open source tracing protocols, including
-              Jaeger, Zipkin, and OpenTelemetry.
-            homepage_url: https://grafana.com/oss/tempo/
-            repo_url: https://github.com/grafana/tempo
-            logo: grafana-tempo.svg
-            crunchbase: https://www.crunchbase.com/organization/raintank
           - item:
             name: OpenTelemetry
             homepage_url: https://opentelemetry.io/
             project: incubating
-            repo_url: https://github.com/open-telemetry/opentelemetry-java
+            repo_url: https://github.com/open-telemetry/
             logo: open-telemetry.svg
             twitter: https://twitter.com/opentelemetry
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -1487,11 +1546,47 @@ landscape:
               specification: true
               chat_channel: '#opentelemetry'
               clomonitor_name: open-telemetry
+          - item:
+            name: Grafana Alloy
+            description: >-
+              Grafana Alloy is Grafana Labs distribution of the OpenTelemetry Collector. It is an OTLP-compatible collector with built-in Prometheus
+              optimizations that also supports signals across metrics, logs, traces, and profiles.
+            homepage_url: https://grafana.com/oss/alloy
+            repo_url: https://github.com/grafana/alloy
+            logo: alloy.svg
+            crunchbase: https://www.crunchbase.com/organization/raintank
+      - subcategory:
+        name: Profiling
+        items:
+          - item:
+            name: Grafana Pyroscope
+            description: >-
+              Grafana Pyroscope is an open source continuous profiling database that provides fast, scalable, highly available, and efficient storage and querying.
+              This helps you get a better understanding of resource usage in your applications down to the line number.
+            homepage_url: https://grafana.com/oss/pyroscope
+            repo_url: https://github.com/grafana/pyroscope
+            logo: pyroscope.svg
+            crunchbase: https://www.crunchbase.com/organization/raintank
+      - subcategory:
+        name: Tracing
+        items:
+          - item:
+            name: Grafana Tempo
+            description: >-
+              Grafana Tempo is an open source, easy-to-use and high-scale distributed tracing backend. Tempo is cost-efficient, requiring only object storage to
+              operate, and is deeply integrated with Grafana, Prometheus, and Loki. Tempo can be used with any of the open source tracing protocols, including
+              Jaeger, Zipkin, and OpenTelemetry.
+            homepage_url: https://grafana.com/oss/tempo/
+            repo_url: https://github.com/grafana/tempo
+            logo: grafana-tempo.svg
+            crunchbase: https://www.crunchbase.com/organization/raintank
       - subcategory:
         name: Chaos Engineering
         items:
           - item:
             name: Chaos Mesh
+            description: >-
+              A Chaos Engineering Platform for Kubernetes.
             homepage_url: https://chaos-mesh.org/
             project: incubating
             repo_url: https://github.com/chaos-mesh/chaos-mesh
@@ -1511,6 +1606,8 @@ landscape:
               clomonitor_name: chaos-mesh
           - item:
             name: Litmus
+            description: >-
+              Litmus helps SREs and developers practice chaos engineering in a Cloud-native way. Chaos experiments are published at the ChaosHub
             homepage_url: https://litmuschaos.io/
             project: incubating
             repo_url: https://github.com/litmuschaos/litmus
