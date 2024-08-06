@@ -30,10 +30,10 @@ clean: ## Cleanup
 check: check-landscape2 ## Check requirements
 
 
-.PHONY: landscape-build
-landscape-build: ## Generate website
+.PHONY: build
+build: ## Generate website
 	@landscape2 build --data-file data.yml --settings-file settings.yml --guide-file guide.yml --logos-path logos --output-dir build
 
-.PHONY: landscape-serve
-landscape-serve: ## Launch website
+.PHONY: serve
+serve: ## Launch website
 	@landscape2 serve --landscape-dir build
